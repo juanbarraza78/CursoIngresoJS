@@ -9,9 +9,9 @@ function sumar()
 	numeroUno = parseInt(numeroUno);
 	numeroDos = parseInt(numeroDos);
 	var suma = numeroUno+numeroDos;
-	alert (suma);
+	alert ("la suma es: "+suma);
 	// parseInt me convierte el valor del id y me lo transforma a numero con el que puedo interatuar con +-/* etc.
-	addEventListener
+	
 }
 
 

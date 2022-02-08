@@ -5,5 +5,5 @@ function mostrar()
 {	
 	var ingreseNombre = document.getElementById("txtIdNombre").value;
 	var ingleseEdad = document.getElementById("txtIdEdad").value;
-	alert(`Tu nombre es ${ingreseNombre} y tu edad es ${ingleseEdad} gil`);
+	alert("Usted se llama "+ingreseNombre+" y tiene "+ingleseEdad+" años");
 }

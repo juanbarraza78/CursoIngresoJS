@@ -10,5 +10,5 @@ function mostrar()
 	apellido = prompt('Cual es tu apellido? ');
 	//  prompt crea un imput para el usuario
 	alert("Tu nombre es: "+ nombre + " " + apellido );
-	//  alert(`Tu nombre es ${nombre} ${apellido}`) ; otra forma de poner lo mismo 
+	//  alert(`Tu nombre es ${nombre} ${apellido}`) ; otra forma de poner lo mismo (ESTO ES INTERPOLADO)
 }
