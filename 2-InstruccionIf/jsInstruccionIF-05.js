@@ -4,10 +4,11 @@ function mostrar()
 
     edad = parseInt(edad);
 
-    if(edad <= 13 && edad >= 17)
+    if(edad < 13 || edad > 17) 
+	
     {
-        alert("Usted es adolencente");
+        alert("Usted no es adolencente");
     }
 	
 
-}//FIN DE LA FUNCIÓN
+}

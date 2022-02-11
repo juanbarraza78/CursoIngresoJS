@@ -4,7 +4,7 @@ function mostrar()
     edad = parseInt(edad);
 	if(edad<13) 
 	{
-		alert("Sos un nene papa")
+		alert("Sos un niño");
 	}
 	else if(edad >= 13 && edad <= 17) 
 	{
@@ -12,7 +12,7 @@ function mostrar()
 	}
 	else
 	{
-		alert("Sos un adulto");
+		alert("Sos mayor de edad");
 	}
 
 }
