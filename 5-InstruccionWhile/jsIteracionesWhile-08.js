@@ -15,5 +15,4 @@ function mostrar()
 
 	txtIdSuma.value=sumaPositivos;
 	txtIdProducto.value=multiplicacionNegativos;
-
-}//FIN DE LA FUNCIÓN
+}
