@@ -5,13 +5,12 @@ function mostrar()
 	var numeroIngresado;
 
 
-	while(contador!=5)
+	while(contador < 5)
 	{
 		numeroIngresado=parseInt(prompt("Ingrese numero: "));
-		acumulador=numeroIngresado+acumulador;
-		contador = contador + 1;
+		acumulador += numeroIngresado;
+		contador ++;
 	}
-	
 	document.getElementById("txtIdSuma").value=acumulador;
-	document.getElementById("txtIdPromedio").value=acumulador/5;
+	document.getElementById("txtIdPromedio").value=acumulador/contador;
 }

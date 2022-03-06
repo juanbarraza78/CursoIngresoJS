@@ -1,7 +1,9 @@
-function mostrar()
-{
-	alert("ok");
-
-
-
-}//FIN DE LA FUNCIÓN
+function mostrar() {
+	let numero;
+	for ( ; ; ) { 
+		numero = parseInt(prompt("Ingrese un numero: "));
+		if (numero == 9) {
+			break;
+		}
+	}
+}
